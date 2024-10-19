@@ -141,7 +141,7 @@ html , body{
 
 @media only screen and (max-width: 600px) {
     #multiplicaciones > *{
-        margin-top: 60px;
+        margin-top: 40px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16x;
         font-weight: bold;
