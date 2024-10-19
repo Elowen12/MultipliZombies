@@ -120,7 +120,7 @@ html , body{
     width: 32%;
     height: 20%;
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 37%;
     
 }
@@ -133,11 +133,27 @@ html , body{
     text-align: center;
 }
 #multiplicaciones > input{
-    width: 12%;
+    width: 10%;
     height: 30%;
     border-radius: 10%;
     background-color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    #multiplicaciones > *{
+        margin-top: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16x;
+        font-weight: bold;
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    #multiplicaciones > input {
+        width: 15%;
+    }
+}
+
 .bala{
     width: 5%;
     height: 5%;
@@ -153,8 +169,14 @@ html , body{
     font-weight: bold;
     font-size: 28px;
     color: white;
-    top: 90%;
+    top: 85%;
     left: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+    #puntaje{
+        top: -40% !important;
+    }
 }
 
 #botonInvisible{
